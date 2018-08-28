@@ -6,7 +6,7 @@ class Specialty extends Component{
         // this points to this component (specialty) points to that and
         // you are selecting inside the component, looking at props, says look into
         // this component and look into this property and look for spec
-        // we are storing spec in these variables since we can not use javascript
+        // we are storing spec in these variables since we can not use javascript below
         const anyspecname = this.props.spec;
         const anyoldthing = this.props.key;
 

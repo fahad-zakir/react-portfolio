@@ -23,9 +23,9 @@ class Specialties extends Component {
             }]
         }
     
-    render() {
+    render() {  //.map is the same thing as for each, running a loop
         const Specialties = this.state.specialties.map((anything) => {
-            return (
+            return ( //Specialty is the component name
                 <div><Specialty spec={anything} mydog="Steve"/></div>
                 // when passing in after = it's a property for a component which you can use with .props to pass from parent
                 // curly braces inside of a return means its javascript
